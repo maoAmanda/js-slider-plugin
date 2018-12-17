@@ -1,0 +1,24 @@
+{
+  "name": "js-slider-plugin",
+  "version": "1.0.0",
+  "description": "a plugin for slider with js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maoAmanda/js-slider-plugin.git"
+  },
+  "keywords": [
+    "slider",
+    "plugin",
+    "image"
+  ],
+  "author": "amanda-mao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maoAmanda/js-slider-plugin/issues"
+  },
+  "homepage": "https://github.com/maoAmanda/js-slider-plugin#readme"
+}

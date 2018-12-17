@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>测试js</title>
+    <script type="text/javascript" src="C:/Users/ssun_/Desktop/myself/JS-slider-plugin/lib/sliderPlugin.js"></script>
+    <style type="text/css">
+
+	</style>
+</head>
+<body>
+    <div class="wrapper"></div>
+    <script type="text/javascript">
+        var imageArray = ['./img/1.jpg','./img/2.jpg','./img/3.jpg'];
+       
+        if(window.sliderPlugin){
+            var doc = document, wrapper = doc.querySelector('.wrapper');
+            sliderPlugin.createEelement(wrapper,imageArray);
+        }
+        
+	</script>
+</body>
+</html>
